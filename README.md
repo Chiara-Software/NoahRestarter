@@ -1,11 +1,13 @@
 # Noah Restarter
 
 Noah Restarter est un petit outil Windows qui permet de relancer proprement les services Noah dans le bon ordre, afin de résoudre rapidement certains blocages (application figée, services instables, etc.).
-Il est compatible avec les versions de Noah 4 jusqu'à la 4.117.0 (denière version en date du 05/01/2026) - Il fonctionne également avec le client Noah ES.
-Contrèrement au redémarrage manuel des services Noah, Noah Restarter permet à un utilisateur Windows standard (non administrateur) de stopper puis relancer les services Noah.
+
+Il est compatible avec les versions de Noah 4 jusqu'à la 4.117.0 (dernière version en date du 05/01/2026) - Il fonctionne également avec le client Noah ES.
+
+Contrairement au redémarrage manuel des services Noah, Noah Restarter permet à un utilisateur Windows standard (non administrateur) de stopper puis relancer les services Noah.
 
 Son usage est recommandé en première intention lors de l'erreur 50138 (https://www.himsa.com/support/noah-4-knowledge-base/noah-4-troubleshooting/error-50138-when-starting-noah-4/)
-Il automatise la Solution 1 (la plus fréquente) - si malgré tout vous continuez de rencontrer cette erreur, nous vous invitons à suivre les autres solutions disponible sur la page de l'HIMSA.
+Il automatise la solution 1 (la plus fréquente) - si malgré tout vous continuez de rencontrer cette erreur, nous vous invitons à suivre les autres solutions disponible sur la page de l'HIMSA.
 
 ## Fonctionnement
 
