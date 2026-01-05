@@ -32,6 +32,7 @@
             this.statusLabel = new System.Windows.Forms.Label();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.NRLogo = new System.Windows.Forms.PictureBox();
+            this.versionLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NRLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,23 +77,37 @@
             this.NRLogo.TabIndex = 2;
             this.NRLogo.TabStop = false;
             // 
+            // versionLabel
+            // 
+            this.versionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.versionLabel.AutoSize = true;
+            this.versionLabel.Location = new System.Drawing.Point(697, 223);
+            this.versionLabel.Name = "versionLabel";
+            this.versionLabel.Size = new System.Drawing.Size(64, 20);
+            this.versionLabel.TabIndex = 3;
+            this.versionLabel.Text = "v1.0.0.1";
+            this.versionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(773, 290);
+            this.Controls.Add(this.versionLabel);
             this.Controls.Add(this.NRLogo);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.statusLabel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Noah Services Restarter Tool";
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.NRLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -101,6 +116,7 @@
         private System.Windows.Forms.Label statusLabel;
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.PictureBox NRLogo;
+        private System.Windows.Forms.Label versionLabel;
     }
 }
 
